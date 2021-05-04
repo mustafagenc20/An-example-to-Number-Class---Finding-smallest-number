@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(findSmallest());
     }
-    public final static int findSmallest(){
+    public final static int findSmallestValue(){
         int[] array = {3,5,7,2,9,10};
         int smallestValue = Integer.MAX_VALUE;
         for (int currentInt : array) {
